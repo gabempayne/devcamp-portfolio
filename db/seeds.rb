@@ -32,7 +32,7 @@ puts '5 skills created'
 
 9.times do |portfolio_item|
 	Portfolio.create!(
-		title: "Portfoltio title: #{portfolio_item}",
+		title: "Portfolio title: #{portfolio_item}",
 		subtitle: "My great service",
 		body: "Jean shorts hashtag chicharrones 
 			seitan tote bag sartorial, blue bottle 
