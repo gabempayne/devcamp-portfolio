@@ -20,6 +20,8 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'payne_view_tool', '~> 0.1.0' # Own gem file !
 gem 'petergate', '~> 1.7', '>= 1.7.5'
+gem 'font-awesome-sass'
+
 
 # gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
