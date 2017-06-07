@@ -1,8 +1,6 @@
-// Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-
 /*
  * Globals
  */
@@ -60,10 +58,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 0rem;
-}
-.cover .inner {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 
@@ -73,7 +68,6 @@ body {
 
 .masthead {
   margin-bottom: 2rem;
-  padding: 2rem;
 }
 
 .masthead-brand {
@@ -130,10 +124,6 @@ body {
  */
 
 .mastfoot {
-  position: center;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
   color: rgba(255,255,255,.5);
 }
 
@@ -145,15 +135,12 @@ body {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    position: relative;
+    position: fixed;
     top: 0;
   }
   .mastfoot {
-    position: relative;bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px; /* Vertically center the text there */
+    position: fixed;
+    bottom: 0;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -173,21 +160,29 @@ body {
   .cover-container {
     width: 55rem;
   }
-  /*
+}
+
+/*
  * Custom Styles
  */
 
-  .auth-links a {
-    color:black;
-  }
+.social-icons {
+  color: #fff;
+  font-size: 40px;
+}
 
-  .card-block {
-    color: black;
-    text-align: left;
-    background-color: #f3f3f3;
-  }
-  #wrapper {
-    margin-bottom: 90px;
-  }
+.card-block {
+  color: black;
+  text-align: left;
+}
 
+.auth-links a {
+  color: black;
+}
+.wrapper {
+  width:100%;
+  padding: 100px 0 100px 0;
+}
+.register-text {
+  text-align: right;
 }
