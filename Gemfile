@@ -21,6 +21,8 @@ gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'payne_view_tool', '~> 0.1.0' # Own gem file !
 gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'font-awesome-sass'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 
 
 # gem 'bcrypt', '~> 3.1.7'
