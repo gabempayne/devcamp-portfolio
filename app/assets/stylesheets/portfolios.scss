@@ -59,6 +59,15 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
-#port-img-container {
-  width:90%;
+
+/** Custom Styles **/
+
+.port-img {
+  width:100%;
+}
+#portfolio-container {
+  margin-top: 60px;
+}
+.portfolio-form {
+  padding: 20px;
 }
