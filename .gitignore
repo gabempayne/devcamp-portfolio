@@ -18,3 +18,7 @@
 
 # I don't want to share my secrets
 /config/secrets.yml
+.env
+
+# Ignore application configuration
+/config/application.yml
