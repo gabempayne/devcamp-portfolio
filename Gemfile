@@ -28,6 +28,7 @@ gem 'carrierwave', '~> 1.1'
 gem 'mini_magick', '~> 4.7', '>= 4.7.2'
 gem 'carrierwave-aws', '~> 1.1'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 
 
 
