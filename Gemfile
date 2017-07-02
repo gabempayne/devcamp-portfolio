@@ -29,8 +29,8 @@ gem 'mini_magick', '~> 4.7', '>= 4.7.2'
 gem 'carrierwave-aws', '~> 1.1'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
-
-
+gem 'gritter', '~> 1.2'
+gem 'cocoon', '~> 1.2', '>= 1.2.10'
 
 # gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
