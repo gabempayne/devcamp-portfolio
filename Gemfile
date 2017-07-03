@@ -32,6 +32,7 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.10'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
+gem 'redis', '~> 3.3', '>= 3.3.3'
 
 
 # gem 'bcrypt', '~> 3.1.7'
