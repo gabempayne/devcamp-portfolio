@@ -1,11 +1,5 @@
 <%= form_for(blog) do |f| %>
-<<<<<<< HEAD
-  <% if blog.errors.any? %>
-    <% blog.errors.full_messages.each do |error| %>
-      <%= js add_gritter(error, title:  "Gabe Payne Portfolio", sticky: false) %>
-    <% end %>
-  <% end %>
-=======
+
     <% if blog.errors.any? %>
         <% blog.errors.full_messages.each do |error| %>
           <%= alert_generator error %>
@@ -15,7 +9,6 @@
     <div class="form-group">
       <%= f.text_field :title, class: 'form-control', placeholder: "Title" %>
     </div>
->>>>>>> forms
 
     <div class="form-group">
       <%= f.text_area :body, class: 'form-control', rows: 15, placeholder: "Content" %>
