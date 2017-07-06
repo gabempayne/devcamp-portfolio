@@ -79,9 +79,4 @@ module ApplicationHelper
     js add_gritter(msg, title: "Gabe Payne Portfolio", sticky: false)
   end
 
-
-
-
-
-
 end
