@@ -16,18 +16,12 @@
   <body>
     <%= render 'shared/portfolio_nav' %>
 
-    <!-- Start of masthead-->
     <%= render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
-    <!-- end of masthead-->
 
     <%= yield %>
-    <!-- Start of footer-->
+
     <%= render 'shared/portfolio_footer' %>
-    <!-- End of footer-->
 
     <%= alerts %>
-
-    <%= source_helper("application") %>
-
   </body>
 </html>
